@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Conversor Monetário</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
@@ -20,7 +21,15 @@
       <h1>Conversor Monetário</h1>
       <label for="amount">Valor em Reais (BRL):</label>
       <input id="amount" type="number" placeholder="Digite o valor em BRL">
-
+      <label for="opcao">Escolha uma Moeda</label>
+      <select id="opcao">
+        <option value="USD">Dólar Americano (USD)</option>
+        <option value="EUR">Euro (EUR)</option>
+        <option value="GBP">Libra Esterlina (GBP)</option>
+        <option value="JPY">Iene Japonês (JPY)</option>
+        </select>
+      <button id="convertButton">Converter</button>
+      <p id="result">Resultado:<span id="conversao_resultado">0.00</span></p> 
      </section>
 
   </main>
