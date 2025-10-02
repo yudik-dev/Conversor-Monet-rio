@@ -52,3 +52,15 @@ body {
 #conversor button:hover {
   background-color: #0056b3;
 }
+#conversao_resultado{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#result {
+  background-color: #f0f4f8;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+
