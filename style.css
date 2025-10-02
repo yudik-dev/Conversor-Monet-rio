@@ -63,4 +63,19 @@ body {
   border-radius: 16px;
 }
 
+nav ul{
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
 
+nav a{
+   text-decoration: none;
+  color: #102a43;
+}
+
+nav a:hover{
+  text-decoration: underline;
+  background-color: #d9e2ec;
+  border-radius: 3px;
+}
