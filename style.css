@@ -10,9 +10,15 @@ body{
 }
 
 #conversor{
-  background-color:white;
-  padding: 30px; 
+  background-color: white;
+  padding: 30px;
   border-radius: 15px;
-  border: 1px solid green;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+#conversor label{
+  display: block;
+  color: #486581;
+  margin-bottom: 5px;
+  font-weight: 600;  
 }
